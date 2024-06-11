@@ -1,0 +1,46 @@
+/* Set the background color to blue */
+body {
+    background-color: blue;
+}
+
+/* Style the form */
+form {
+    width: 50%;
+    margin: 50px auto; /* Center the form horizontally */
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table cells */
+td {
+    padding: 10px;
+}
+
+/* Style text inputs */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green */
+}

@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #007bff;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #0056b3;
+}
+
+.navbar li p {
+    color: #ffffff;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.sec-authorize-isAnonymous a,
+.sec-authorize-isAuthenticated p {
+    padding: 10px 20px;
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: deepskyblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the dropdown trigger */
+.dropdown p {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Change the background color of the dropdown trigger when the dropdown content is shown */
+.dropdown:hover p {
+    background-color: #0056b3;
+}

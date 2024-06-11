@@ -1,0 +1,41 @@
+/* Set the background color to blue */
+body {
+    background-color: blue;
+}
+
+/* Style the table */
+.table {
+    width: 80%;
+    margin: 50px auto; /* Center the table horizontally */
+    border-collapse: collapse;
+}
+
+/* Style the table header */
+.table th {
+    background-color: #333; /* Dark background color */
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the table rows */
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Add border-bottom for separation */
+}
+
+/* Style the "Create" button */
+button {
+    margin: 20px auto; /* Center the button horizontally */
+    display: block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
